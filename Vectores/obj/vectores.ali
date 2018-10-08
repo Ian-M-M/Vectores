@@ -1,0 +1,28 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U vectores%b		vectores.adb		a080ef27 NE OO PK IL
+
+U vectores%s		vectores.ads		36957c0c EE NE OO PK IL
+
+D system.ads		20180524051738 32a08138 system%s
+D vectores.ads		20181007200428 36957c0c vectores%s
+D vectores.adb		20181007201020 9615932b vectores%b
+X 2 vectores.ads
+2K9*vectores 22l5 22e13 3|1b14 42l5 42t13
+5A9*Vector(integer)<integer> 13r29 13r47 13r62 3|19r29 19r47 19r62 20r13
+13V13*suma{5A9} 13>19 13>37 3|19b13 28l8 28t12
+13a19 vec1{5A9} 16r22 16r52 3|19b19 20r23 23r32 24r20
+13a37 vec2{5A9} 16r36 3|19b37 23r57 24r30
+X 3 vectores.adb
+20a7 res{2|5A9} 22r16 22r29 24m10 27r14
+22i11 I{integer} 23r37 23r62 24r14 24r25 24r35
+

@@ -1,0 +1,31 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U uppercase%b		uppercase.adb		4fce3135 NE OO PK IL
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U uppercase%s		uppercase.ads		9c4d9a7f EE NE OO PK IL
+
+D system.ads		20180525052301 4635ec04 system%s
+D s-parame.ads		20180525052302 48ec542b system.parameters%s
+D s-secsta.ads		20180525052301 20bbe636 system.secondary_stack%s
+D s-stoele.ads		20180525052302 2dc34a04 system.storage_elements%s
+D uppercase.ads		20181001171230 9c4d9a7f uppercase%s
+D uppercase.adb		20181001171215 d383ab4a uppercase%b
+X 5 uppercase.ads
+1K9*uppercase 6l5 6e14 6|1b14 17l5 17t14
+4V16*U_Case{string} 4=24 6|2b13 15l8 15t14
+4a24 Str{string} 6|2b21 5r19 7r33 10m13 14r14
+X 6 uppercase.adb
+3i7 ascii{integer} 7m10 8r13 10r37
+5i11 I{integer} 7r37 10r17
+

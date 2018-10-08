@@ -1,0 +1,5 @@
+vectores.adb:20:07: warning: initialization of "res" has no effect[#0]
+vectores.adb:23:28: medium: overflow check might fail (e.g. when I = 2 and res = (others => 0) and vec1 = (1 => 0, others => -2147483648) and vec2 = (2 => -1, others => 0))[#1]
+vectores.adb:24:32: medium: loop invariant might fail after first iteration, cannot prove vec1(I) < Integer'Last - vec2(I) (e.g. when I = 2 and vec1 = (1 => 0, others => 2147483647) and vec2 = (others => 0))[#2]
+vectores.adb:24:32: medium: loop invariant might fail in first iteration, cannot prove vec1(I) < Integer'Last - vec2(I) (e.g. when I = 1 and vec1 = (1 => 2147483647, others => 0) and vec2 = (1 => 0, others => 2147483647))[#3]
+vectores.adb:24:55: medium: overflow check might fail (e.g. when I = 1 and vec2 = (1 => -1, others => -2147483648))[#4]
