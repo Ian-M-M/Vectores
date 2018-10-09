@@ -1,7 +1,7 @@
 
 package vectores with SPARK_Mode => on is
    
-   type Vector is array(Positive range 1 .. 10) of Integer;
+   type Vector is array(Positive range <>) of Integer;
 
    -- La funcion uppercase devuelve la String pasada por parametro pero convertida
    --a uppercase.
