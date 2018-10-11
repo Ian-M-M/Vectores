@@ -1,0 +1,57 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U vectores%b		vectores.adb		346b9d7c NE OO PK IL
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U vectores%s		vectores.ads		e1142e86 EE NE OO PK IL
+
+D system.ads		20180524051738 32a08138 system%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D vectores.ads		20181011111114 e1142e86 vectores%s
+D vectores.adb		20181011105638 d57fb3fa vectores%b
+X 5 vectores.ads
+2K9*vectores 62l5 62e13 6|1b14 41l5 41t13
+3N4*Max
+4A9*Vector(integer)<integer> 20r29 20r47 20r62 40r30 40r48 40r63 6|17r29
+. 17r47 17r62 18r13 29r30 29r48 29r63 30r13
+10V13*uppercase{string} 10>24 15r30 6|3b13 15l8 15t17
+10a24 Str{string} 12r13 14r29 6|3b24 5r23 7r16 8r33
+14i24 I{integer} 15r47
+20V13*suma{4A9} 20>19 20>37 36r19 6|17b13 27l8 27t12
+20a19 vec1{4A9} 24r15 25r17 26r17 27r31 28r29 29r57 30r31 31r57 35r30 36r37
+. 6|17b19 18r23 20r16 21r20 23r43
+20a37 vec2{4A9} 24r28 25r29 28r45 29r84 30r47 31r84 36r45 6|17b37 21r30 23r53
+27i26 I{integer} 28r34 28r50 29r62 29r89 30r36 30r52 31r62 31r89
+35i25 I{integer} 36r32 36r42 36r50
+40V13*resta{4A9} 40>20 40>38 56r19 6|29b13 39l8 39t13
+40a20 vec1{4A9} 43r15 44r17 45r17 46r30 48r31 49r30 50r31 51r30 55r30 56r38
+. 6|29b20 30r23 32r16 33r20 35r43
+40a38 vec2{4A9} 43r28 44r29 47r28 48r47 49r56 50r47 51r58 56r46 6|29b38 33r30
+. 35r53
+46i25 I{integer} 47r33 48r36 48r52 49r35 49r61 50r36 50r52 51r35 51r63
+55i25 I{integer} 56r33 56r43 56r51
+X 6 vectores.adb
+4i7 ascii{integer} 8m10 9r13 9r28 10r37
+5a7 res{string} 10m13 14r14
+7i11 I{integer} 8r37 10r17
+18a7 res{5|4A9} 21m10 22r46 23r34 26r14
+20i11 I{integer} 21r14 21r25 21r35 22r59
+22i41 K{integer} 23r38 23r48 23r58
+30a7 res{5|4A9} 33m10 34r46 35r34 38r14
+32i11 I{integer} 33r14 33r25 33r35 34r59
+34i41 K{integer} 35r38 35r48 35r58
+
