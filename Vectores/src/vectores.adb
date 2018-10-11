@@ -22,24 +22,22 @@ package body vectores with SPARK_Mode => On is
       for I in vec1'Range loop
          res(I) := vec1(I) + vec2(I);
          pragma Loop_Invariant (for all K in res'First .. I =>
-                                --(vec1(K) <= Integer'Last - vec2(K))
-                                --and (vec1(K) >= Integer'First - vec2(K))
-                                --(res(K) <= Integer'Last)
-                                --and (res(K) >= Integer'First)
                                 (res(K) = vec1(K) + vec2(K)));
       end loop;
 
       return res;
    end suma;
 
---     function resta (vec1 : in Vector; vec2 : in Vector) return Vector is
---        res : Vector := vec1;
---     begin
---        for I in 1 .. vec1'Length loop
---           res(I) := vec1(I) - vec2(I);
---        end loop;
---
---        return res;
---     end resta;
+   function resta (vec1 : in Vector; vec2 : in Vector) return Vector is
+      res : Vector := vec1;
+   begin
+      for I in 1 .. vec1'Length loop
+         res(I) := vec1(I) - vec2(I);
+         pragma Loop_Invariant (for all K in res'First .. I =>
+                                (res(K) = vec1(K) - vec2(K)));
+      end loop;
+
+      return res;
+   end resta;
 
 end vectores;
