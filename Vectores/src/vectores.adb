@@ -31,7 +31,7 @@ package body vectores with SPARK_Mode => On is
    function resta (vec1 : in Vector; vec2 : in Vector) return Vector is
       res : Vector := vec1;
    begin
-      for I in 1 .. vec1'Length loop
+      for I in vec1'Range loop
          res(I) := vec1(I) - vec2(I);
          pragma Loop_Invariant (for all K in res'First .. I =>
                                 (res(K) = vec1(K) - vec2(K)));
