@@ -1,0 +1,24 @@
+Summary of SPARK analysis
+=========================
+
+-------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total         Flow   Interval   CodePeer   Provers   Justified   Unproved
+-------------------------------------------------------------------------------------------------------
+Data Dependencies                 .            .          .          .         .           .          .
+Flow Dependencies                 .            .          .          .         .           .          .
+Initialization                   11           11          .          .         .           .          .
+Non-Aliasing                      .            .          .          .         .           .          .
+Run-time Checks                   .            .          .          .         .           .          .
+Assertions                        .            .          .          .         .           .          .
+Functional Contracts              .            .          .          .         .           .          .
+LSP Verification                  .            .          .          .         .           .          .
+-------------------------------------------------------------------------------------------------------
+Total                            11    11 (100%)          .          .         .           .          .
+
+
+Analyzed 1 unit
+in unit vectores, 4 subprograms and packages out of 4 analyzed
+  vectores at vectores.ads:2 flow analyzed (0 errors, 0 checks and 0 warnings)
+  vectores.resta at vectores.ads:40 flow analyzed (0 errors, 0 checks and 0 warnings)
+  vectores.suma at vectores.ads:20 flow analyzed (0 errors, 0 checks and 0 warnings)
+  vectores.uppercase at vectores.ads:10 flow analyzed (0 errors, 0 checks and 0 warnings)

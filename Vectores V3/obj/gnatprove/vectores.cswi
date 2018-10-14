@@ -1,0 +1,7 @@
+20181014092442
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=C:\GNAT\2018\bin\obj\gnatprove\254c94bf.tmp

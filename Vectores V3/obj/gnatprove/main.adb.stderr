@@ -1,0 +1,2 @@
+main.adb:2:09: "Vector" is undefined
+main.adb:2:16: incorrect constraint for this kind of type

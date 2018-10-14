@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 1" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 8" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 8" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 12" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 8" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 10" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 52" line=" 15" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 14" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 71" line=" 13" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 12" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 46" line=" 13" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 48" line=" 12" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 15" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 32" line=" 12" >
+      <vfs_project>C:\Users\usuario\Desktop\Vectores V2\vectores.gpr</vfs_project>
+      <vfs_file>C:\Users\usuario\Desktop\Vectores V2\src\vectores.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

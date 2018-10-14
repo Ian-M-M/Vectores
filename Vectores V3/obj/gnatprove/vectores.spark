@@ -1,0 +1,322 @@
+{
+  "spark": [
+    {
+      "name": "vectores",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "vectores.uppercase",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 10
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "vectores.suma",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 20
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "vectores.resta",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 40
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "vectores.adb",
+      "line": 35,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 40
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__58.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 36,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 40
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__59.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 40,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 40
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__60.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 23,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 20
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__97.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 24,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 20
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__98.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 28,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 20
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__99.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 9,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__133.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 10,
+      "col": 20,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__134.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 10,
+      "col": 20,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__135.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 12,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__136.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 16,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__137.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "vectores.uppercase",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "vectores.suma",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "vectores.resta",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 40
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 3.18339996738359E-04,
+    "globals (basic)": 2.92279000859708E-04,
+    "globals/properties (advanced)": 5.38059975951910E-04,
+    "flow analysis": 4.86221211031079E-03
+  }
+}
