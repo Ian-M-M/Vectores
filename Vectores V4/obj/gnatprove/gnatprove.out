@@ -1,0 +1,27 @@
+Summary of SPARK analysis
+=========================
+
+---------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total        Flow   Interval   CodePeer      Provers   Justified   Unproved
+---------------------------------------------------------------------------------------------------------
+Data Dependencies                 .           .          .          .            .           .          .
+Flow Dependencies                 .           .          .          .            .           .          .
+Initialization                   20          20          .          .            .           .          .
+Non-Aliasing                      .           .          .          .            .           .          .
+Run-time Checks                  69           .          .          .    66 (CVC4)           .          3
+Assertions                        9           .          .          .     8 (CVC4)           .          1
+Functional Contracts              4           .          .          .     3 (CVC4)           .          1
+LSP Verification                  .           .          .          .            .           .          .
+---------------------------------------------------------------------------------------------------------
+Total                           102    20 (20%)          .          .     77 (75%)           .     5 (5%)
+
+
+Analyzed 2 units
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:4 skipped
+in unit vectores, 5 subprograms and packages out of 5 analyzed
+  vectores at vectores.ads:2 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  vectores.copia at vectores.ads:66 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 12 checks out of 17 proved
+  vectores.resta at vectores.ads:45 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (25 checks)
+  vectores.suma at vectores.ads:25 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (24 checks)
+  vectores.uppercase at vectores.ads:10 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (16 checks)

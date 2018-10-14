@@ -1,0 +1,74 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vectores%b		vectores.adb		439b07be OO PK IL
+
+U vectores%s		vectores.ads		cd596d83 OO PK IL
+
+D system.ads		20180525052301 4635ec04 system%s
+D vectores.ads		20181014194225 cd596d83 vectores%s
+D vectores.adb		20181014201431 8ec26a3d vectores%b
+X 2 vectores.ads
+2K9*vectores 102l5 102e13 3|1b14 112l5 112t13
+3N4*Max
+4A9*Vector(integer)<integer> 25r29 25r47 25r62 45r30 45r48 45r63 66r30 66r45
+. 3|25r29 25r47 25r62 26r13 37r30 37r48 37r63 38r13 50r30 50r45 51r13
+10V13*uppercase{string} 10>24 16r35 18r35 3|3b13 22l8 22t17
+10a24 Str{string} 12r13 14r29 15r35 16r72 18r72 3|3b24 5r23 7r16 8r33 12r45
+. 13r51 14r75 16r75
+14i24 I{integer} 15r39 16r52 16r76 18r52 18r76
+25V13*suma{4A9} 25>19 25>37 41r19 3|25b13 35l8 35t12
+25a19 vec1{4A9} 29r15 30r17 31r17 32r31 33r29 34r30 35r31 36r30 40r30 41r37
+. 3|25b19 26r23 28r16 29r20 31r43
+25a37 vec2{4A9} 29r28 30r29 33r45 34r57 35r47 36r57 41r45 3|25b37 29r30 31r53
+32i26 I{integer} 33r34 33r50 34r35 34r62 35r36 35r52 36r35 36r62
+40i25 I{integer} 41r32 41r42 41r50
+45V13*resta{4A9} 45>20 45>38 61r19 3|37b13 47l8 47t13
+45a20 vec1{4A9} 48r15 49r17 50r17 51r30 53r31 54r30 55r31 56r30 60r30 61r38
+. 3|37b20 38r23 40r16 41r20 43r43
+45a38 vec2{4A9} 48r28 49r29 52r28 53r47 54r56 55r47 56r58 61r46 3|37b38 41r30
+. 43r53
+51i25 I{integer} 52r33 53r36 53r52 54r35 54r61 55r36 55r52 56r35 56r63
+60i25 I{integer} 61r33 61r43 61r51
+66V13*copia{4A9} 66>20 71r24 72r13 72r51 3|50b13 76l8 76t13
+66a20 vec1{4A9} 72r29 72r34 3|50b20 51r24 54r16 56r20 59r45 59r50
+71i19 K{integer} 72r26 72r47
+X 3 vectores.adb
+4i7 ascii{integer} 8m10 9r13 9r29 10r37
+5a7 res{string} 10m13 14r51 16r51 21r14
+7i11 I{integer} 8r37 10r17 12r56
+12i40 J{integer} 13r55 14r55 14r79 16r55 16r79
+26a7 res{2|4A9} 29m10 30r46 31r34 34r14
+28i11 I{integer} 29r14 29r25 29r35 30r59
+30i41 K{integer} 31r38 31r48 31r58
+38a7 res{2|4A9} 41m10 42r46 43r34 46r14
+40i11 I{integer} 41r14 41r25 41r35 42r59
+42i41 K{integer} 43r38 43r48 43r58
+51a7 res{2|4A9} 52r23 56m10 57r45 58r43 59r38 59r67 69r20 75r14
+52i7 I{positive} 56r14 57r56 58r38 66r43 68r13 71m10 71r15
+54i11 J{integer} 56r25
+57i40 K{integer} 59r42 59r63
+
+QQ SPARKVERSION 2018 (20180524)
+GG EK_DIRECT_CALLS vectores__uppercase 0
+GG EK_GLOBALS vectores__uppercase local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS vectores__suma 0
+GG EK_GLOBALS vectores__suma local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS vectores__resta 0
+GG EK_GLOBALS vectores__resta local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS vectores__copia 0
+GG EK_GLOBALS vectores__copia local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS vectores 0
+GG EK_GLOBALS vectores local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

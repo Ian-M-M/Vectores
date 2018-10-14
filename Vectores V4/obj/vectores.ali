@@ -1,0 +1,68 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U vectores%b		vectores.adb		190f64b1 NE OO PK IL
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U vectores%s		vectores.ads		cd596d83 EE NE OO PK IL
+
+D interfac.ads		20180525052300 5ab55268 interfaces%s
+D system.ads		20180525052301 4635ec04 system%s
+D s-parame.ads		20180525052302 48ec542b system.parameters%s
+D s-secsta.ads		20180525052301 20bbe636 system.secondary_stack%s
+D s-stoele.ads		20180525052302 2dc34a04 system.storage_elements%s
+D vectores.ads		20181014194225 cd596d83 vectores%s
+D vectores.adb		20181014194745 d4560932 vectores%b
+X 6 vectores.ads
+2K9*vectores 102l5 102e13 7|1b14 101l5 101t13
+3N4*Max
+4A9*Vector(integer)<integer> 25r29 25r47 25r62 45r30 45r48 45r63 66r30 66r45
+. 7|25r29 25r47 25r62 26r13 37r30 37r48 37r63 38r13 50r30 50r45 51r13
+10V13*uppercase{string} 10>24 16r35 18r35 7|3b13 22l8 22t17
+10a24 Str{string} 12r13 14r29 15r35 16r72 18r72 7|3b24 5r23 7r16 8r33 12r45
+. 13r51 14r75 16r75
+14i24 I{integer} 15r39 16r52 16r76 18r52 18r76
+25V13*suma{4A9} 25>19 25>37 41r19 7|25b13 35l8 35t12
+25a19 vec1{4A9} 29r15 30r17 31r17 32r31 33r29 34r30 35r31 36r30 40r30 41r37
+. 7|25b19 26r23 28r16 29r20 31r43
+25a37 vec2{4A9} 29r28 30r29 33r45 34r57 35r47 36r57 41r45 7|25b37 29r30 31r53
+32i26 I{integer} 33r34 33r50 34r35 34r62 35r36 35r52 36r35 36r62
+40i25 I{integer} 41r32 41r42 41r50
+45V13*resta{4A9} 45>20 45>38 61r19 7|37b13 47l8 47t13
+45a20 vec1{4A9} 48r15 49r17 50r17 51r30 53r31 54r30 55r31 56r30 60r30 61r38
+. 7|37b20 38r23 40r16 41r20 43r43
+45a38 vec2{4A9} 48r28 49r29 52r28 53r47 54r56 55r47 56r58 61r46 7|37b38 41r30
+. 43r53
+51i25 I{integer} 52r33 53r36 53r52 54r35 54r61 55r36 55r52 56r35 56r63
+60i25 I{integer} 61r33 61r43 61r51
+66V13*copia{4A9} 66>20 71r24 72r13 72r51 7|50b13 65l8 65t13
+66a20 vec1{4A9} 72r29 72r34 7|50b20 51r24 54r16 55r20 57r41 57r46
+71i19 K{integer} 72r26 72r47
+X 7 vectores.adb
+4i7 ascii{integer} 8m10 9r13 9r29 10r37
+5a7 res{string} 10m13 14r51 16r51 21r14
+7i11 I{integer} 8r37 10r17 12r56
+12i40 J{integer} 13r55 14r55 14r79 16r55 16r79
+26a7 res{6|4A9} 29m10 30r46 31r34 34r14
+28i11 I{integer} 29r14 29r25 29r35 30r59
+30i41 K{integer} 31r38 31r48 31r58
+38a7 res{6|4A9} 41m10 42r46 43r34 46r14
+40i11 I{integer} 41r14 41r25 41r35 42r59
+42i41 K{integer} 43r38 43r48 43r58
+51a7 res{6|4A9} 55m10 56r45 57r34 57r63 59r20 64r14
+52i7 I{positive} 55r14 56r56 58r13 61m10 61r15
+54i11 J{integer} 55r25
+56i40 K{integer} 57r38 57r59
+

@@ -1,0 +1,5425 @@
+{
+  "spark": [
+    {
+      "name": "vectores",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "vectores.uppercase",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 10
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "vectores.suma",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 25
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "vectores.resta",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 45
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "vectores.copia",
+      "sloc": [
+        {
+          "file": "vectores.ads",
+          "line": 66
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "vectores.adb",
+      "line": 56,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__34.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 56,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__35.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 57,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__36.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 57,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__37.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 66,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__38.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 68,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__39.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 69,
+      "col": 13,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__40.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 71,
+      "col": 12,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__41.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 75,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__42.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 9,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__76.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 10,
+      "col": 20,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__77.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 10,
+      "col": 20,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__78.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 12,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__79.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 21,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__80.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 41,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__141.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 42,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__142.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 46,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__143.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 29,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__180.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 30,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__181.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 34,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vectores__flow__182.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "vectores.ads",
+      "line": 34,
+      "col": 55,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 73,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 34,
+      "check_col": 55,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 56,
+      "col": 63,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 56,
+      "check_col": 63,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 41,
+      "col": 28,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 180,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 127,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 41,
+      "check_col": 28,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 71,
+      "col": 17,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 71,
+      "check_col": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 61,
+      "col": 51,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 61,
+      "check_col": 51,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 10,
+      "col": 43,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 10,
+      "check_col": 43,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 35,
+      "col": 52,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 35,
+      "check_col": 52,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 41,
+      "col": 44,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 148,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 41,
+      "check_col": 44,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 51,
+      "col": 40,
+      "rule": "VC_LENGTH_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 73,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 51,
+      "check_col": 40,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 18,
+      "col": 76,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 18,
+      "check_col": 76,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 53,
+      "col": 36,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 53,
+      "check_col": 36,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 36,
+      "col": 62,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 36,
+      "check_col": 62,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 51,
+      "col": 28,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 17,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 51,
+      "check_col": 28,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 59,
+      "col": 61,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (none)",
+              "steps": 172,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 249,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 249,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (none)",
+                    "steps": 342,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (none)",
+                    "steps": 322,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 59,
+      "check_col": 61,
+      "tracefile": "vectores.adb_59_61_overflow_check.trace",
+      "cntexmp": {
+        "vectores.adb": {
+          "51": [
+            {
+              "name": "res",
+              "value": "(1 => 0, others => 2147483647)",
+              "kind": "variable"
+            },
+            {
+              "name": "res'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "res'Last",
+              "value": "2147483647",
+              "kind": "variable"
+            }
+          ],
+          "54": [
+            {
+              "name": "I",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "J",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Last",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Result",
+              "value": "(others => 0)",
+              "kind": "variable"
+            },
+            {
+              "name": "res",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ],
+          "56": [
+            {
+              "name": "res",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ],
+          "59": [
+            {
+              "name": "vec1",
+              "value": "(1 => 0, others => 2147483647)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "2147483647",
+              "kind": "variable"
+            }
+          ]
+        },
+        "vectores.ads": {
+          "66": [
+            {
+              "name": "vec1",
+              "value": "(1 => 0, others => 2147483647)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "2147483647",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 0,
+      "how_proved": "prover"
+    },
+    {
+      "file": "vectores.ads",
+      "line": 55,
+      "col": 36,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 55,
+      "check_col": 36,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 41,
+      "col": 35,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 41,
+      "check_col": 35,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 34,
+      "col": 35,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 34,
+      "check_col": 35,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 31,
+      "col": 51,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 145,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 31,
+      "check_col": 51,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 40,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 285,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 40,
+      "check_col": 16,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 42,
+      "col": 33,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 74,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 42,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 29,
+      "col": 35,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 29,
+      "check_col": 35,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 29,
+      "col": 28,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 199,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 119,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 29,
+      "check_col": 28,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 30,
+      "col": 33,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 74,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 30,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 16,
+      "col": 79,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 16,
+      "check_col": 79,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 57,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 663,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 57,
+      "check_col": 32,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 53,
+      "col": 52,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 53,
+      "check_col": 52,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 43,
+      "col": 51,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 153,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 43,
+      "check_col": 51,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 12,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 47,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 76,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 12,
+      "check_col": 32,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 52,
+      "col": 33,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 52,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 36,
+      "col": 35,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 36,
+      "check_col": 35,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 72,
+      "col": 13,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 27636,
+              "time": 7.80000000000000E-01
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 411,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 71,
+      "check_col": 10,
+      "tracefile": "vectores.ads_71_10_postcondition.trace",
+      "cntexmp": {
+        "vectores.adb": {
+          "51": [
+            {
+              "name": "res",
+              "value": "(1 => 0, 2 => 0, others => 2)",
+              "kind": "variable"
+            },
+            {
+              "name": "res'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "res'Last",
+              "value": "2",
+              "kind": "variable"
+            }
+          ],
+          "54": [
+            {
+              "name": "I",
+              "value": "2",
+              "kind": "variable"
+            },
+            {
+              "name": "J",
+              "value": "2",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Last",
+              "value": "2",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Result",
+              "value": "(others => 0)",
+              "kind": "variable"
+            },
+            {
+              "name": "res",
+              "value": "(others => -1)",
+              "kind": "variable"
+            }
+          ],
+          "56": [
+            {
+              "name": "res",
+              "value": "(others => 1)",
+              "kind": "variable"
+            }
+          ],
+          "71": [
+            {
+              "name": "I",
+              "value": "2",
+              "kind": "variable"
+            }
+          ],
+          "75": [
+            {
+              "name": "copia'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Last",
+              "value": "2",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Result",
+              "value": "(others => -1)",
+              "kind": "variable"
+            }
+          ]
+        },
+        "vectores.ads": {
+          "66": [
+            {
+              "name": "vec1",
+              "value": "(1 => 0, 2 => 0, others => 2)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "2",
+              "kind": "variable"
+            }
+          ],
+          "72": [
+            {
+              "name": "K",
+              "value": "2",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Last",
+              "value": "2",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Result",
+              "value": "(others => -1)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1",
+              "value": "(1 => 0, 2 => 0, others => 2)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "2",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 14,
+      "col": 79,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 14,
+      "check_col": 79,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 59,
+      "col": 42,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 59,
+      "check_col": 42,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 41,
+      "col": 14,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 41,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 41,
+      "col": 50,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 41,
+      "check_col": 50,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 29,
+      "col": 14,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 29,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 54,
+      "col": 35,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 54,
+      "check_col": 35,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 31,
+      "col": 48,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 31,
+      "check_col": 48,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 31,
+      "col": 38,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 31,
+      "check_col": 38,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 10,
+      "col": 43,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 10,
+      "check_col": 43,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 72,
+      "col": 49,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 282,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 72,
+      "check_col": 49,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 10,
+      "col": 17,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 10,
+      "check_col": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 31,
+      "col": 58,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 31,
+      "check_col": 58,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 59,
+      "col": 65,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 59,
+      "check_col": 65,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 72,
+      "col": 45,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 63392,
+              "time": 8.40000000000000E-01
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 279,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 72,
+      "check_col": 45,
+      "tracefile": "vectores.ads_72_45_overflow_check.trace",
+      "cntexmp": {
+        "vectores.adb": {
+          "51": [
+            {
+              "name": "res",
+              "value": "(2147483647 => 0, others => 1)",
+              "kind": "variable"
+            },
+            {
+              "name": "res'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "res'Last",
+              "value": "1",
+              "kind": "variable"
+            }
+          ],
+          "54": [
+            {
+              "name": "I",
+              "value": "2",
+              "kind": "variable"
+            },
+            {
+              "name": "J",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'First",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Last",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Result",
+              "value": "(others => 2147483647)",
+              "kind": "variable"
+            },
+            {
+              "name": "res",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ],
+          "56": [
+            {
+              "name": "res",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ],
+          "71": [
+            {
+              "name": "I",
+              "value": "2",
+              "kind": "variable"
+            }
+          ],
+          "75": [
+            {
+              "name": "copia'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Last",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Result",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ]
+        },
+        "vectores.ads": {
+          "66": [
+            {
+              "name": "vec1",
+              "value": "(2147483647 => 0, others => 1)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "2147483647",
+              "kind": "variable"
+            }
+          ],
+          "72": [
+            {
+              "name": "vec1",
+              "value": "(2147483647 => 0, others => 1)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "2147483647",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 2,
+      "how_proved": "prover"
+    },
+    {
+      "file": "vectores.adb",
+      "line": 43,
+      "col": 58,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 43,
+      "check_col": 58,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 33,
+      "col": 34,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 33,
+      "check_col": 34,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 54,
+      "col": 61,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 54,
+      "check_col": 61,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 13,
+      "col": 55,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 13,
+      "check_col": 55,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 15,
+      "col": 39,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 15,
+      "check_col": 39,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 60,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 246,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 60,
+      "check_col": 16,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 61,
+      "col": 33,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 119,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 119,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 61,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 16,
+      "col": 52,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 119,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 119,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 16,
+      "check_col": 52,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 18,
+      "col": 52,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 126,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 126,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 18,
+      "check_col": 52,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 16,
+      "col": 76,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 16,
+      "check_col": 76,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 43,
+      "col": 48,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 43,
+      "check_col": 48,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 42,
+      "col": 33,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 177,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 42,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 30,
+      "col": 33,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 177,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 30,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 14,
+      "col": 15,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 171,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 237,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 14,
+      "check_col": 15,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 59,
+      "col": 38,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (none)",
+              "steps": 666,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 599,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 57,
+      "check_col": 32,
+      "tracefile": "vectores.adb_57_32_loop_invariant_preserv.trace",
+      "cntexmp": {
+        "vectores.adb": {
+          "51": [
+            {
+              "name": "res",
+              "value": "(0 => 0, 1 => 0, 2 => 0, 3 => 0, others => -1)",
+              "kind": "variable"
+            },
+            {
+              "name": "res'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "res'Last",
+              "value": "3",
+              "kind": "variable"
+            }
+          ],
+          "54": [
+            {
+              "name": "I",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "J",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Last",
+              "value": "3",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Result",
+              "value": "(others => 0)",
+              "kind": "variable"
+            },
+            {
+              "name": "res",
+              "value": "(others => 3)",
+              "kind": "variable"
+            }
+          ],
+          "56": [
+            {
+              "name": "res",
+              "value": "(3 => 0, others => 1)",
+              "kind": "variable"
+            }
+          ],
+          "59": [
+            {
+              "name": "I",
+              "value": "3",
+              "kind": "variable"
+            },
+            {
+              "name": "K",
+              "value": "3",
+              "kind": "variable"
+            },
+            {
+              "name": "res",
+              "value": "(3 => 0, others => 1)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1",
+              "value": "(1 => 0, 2 => 0, 3 => -1, others => -1)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "3",
+              "kind": "variable"
+            }
+          ],
+          "71": [
+            {
+              "name": "I",
+              "value": "3",
+              "kind": "variable"
+            }
+          ]
+        },
+        "vectores.ads": {
+          "66": [
+            {
+              "name": "vec1",
+              "value": "(1 => 0, 2 => 0, 3 => -1, others => -1)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "3",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 3,
+      "how_proved": "prover"
+    },
+    {
+      "file": "vectores.ads",
+      "line": 55,
+      "col": 52,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 55,
+      "check_col": 52,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 43,
+      "col": 38,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 43,
+      "check_col": 38,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 33,
+      "col": 50,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 33,
+      "check_col": 50,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 72,
+      "col": 49,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 395,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 72,
+      "check_col": 49,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 12,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 334,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 488,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 12,
+      "check_col": 32,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 56,
+      "col": 56,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 73,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 56,
+      "check_col": 56,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 35,
+      "col": 36,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 35,
+      "check_col": 36,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 54,
+      "col": 54,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 73,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 54,
+      "check_col": 54,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 61,
+      "col": 45,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 156,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 61,
+      "check_col": 45,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 41,
+      "col": 42,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 41,
+      "check_col": 42,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 66,
+      "col": 10,
+      "rule": "VC_LOOP_VARIANT",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 66,
+      "check_col": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 14,
+      "col": 55,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 14,
+      "check_col": 55,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 16,
+      "col": 55,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.uppercase",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 16,
+      "check_col": 55,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 59,
+      "col": 65,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 59,
+      "check_col": 65,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 36,
+      "col": 55,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 73,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 36,
+      "check_col": 55,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 61,
+      "col": 43,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 61,
+      "check_col": 43,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 51,
+      "col": 7,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 51,
+      "check_col": 7,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 72,
+      "col": 26,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 72,
+      "check_col": 26,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 41,
+      "col": 32,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 119,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 119,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 41,
+      "check_col": 32,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.adb",
+      "line": 56,
+      "col": 14,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "vectores.copia",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (none)",
+              "steps": 195,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 286,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.adb",
+      "check_line": 56,
+      "check_col": 14,
+      "tracefile": "vectores.adb_56_14_index_check.trace",
+      "cntexmp": {
+        "vectores.adb": {
+          "51": [
+            {
+              "name": "res",
+              "value": "(1 => 0, 2 => 0, others => 2)",
+              "kind": "variable"
+            },
+            {
+              "name": "res'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "res'Last",
+              "value": "2",
+              "kind": "variable"
+            }
+          ],
+          "54": [
+            {
+              "name": "I",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "J",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Last",
+              "value": "2",
+              "kind": "variable"
+            },
+            {
+              "name": "copia'Result",
+              "value": "(others => 0)",
+              "kind": "variable"
+            },
+            {
+              "name": "res",
+              "value": "(others => 1)",
+              "kind": "variable"
+            }
+          ],
+          "56": [
+            {
+              "name": "I",
+              "value": "3",
+              "kind": "variable"
+            },
+            {
+              "name": "res",
+              "value": "(others => 1)",
+              "kind": "variable"
+            },
+            {
+              "name": "res'Last",
+              "value": "2",
+              "kind": "variable"
+            }
+          ],
+          "71": [
+            {
+              "name": "I",
+              "value": "3",
+              "kind": "variable"
+            }
+          ]
+        },
+        "vectores.ads": {
+          "66": [
+            {
+              "name": "vec1",
+              "value": "(1 => 0, 2 => 0, others => 2)",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'First",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "vec1'Last",
+              "value": "2",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 4,
+      "how_proved": "prover"
+    },
+    {
+      "file": "vectores.ads",
+      "line": 34,
+      "col": 62,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.suma",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 34,
+      "check_col": 62,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "vectores.ads",
+      "line": 56,
+      "col": 35,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "vectores.resta",
+        "sloc": [
+          {
+            "file": "vectores.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "vectores.ads",
+      "check_line": 56,
+      "check_col": 35,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "vectores.suma",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "vectores.suma",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "vectores.suma",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "vectores",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "vectores.resta",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "vectores.resta",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "vectores.resta",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "vectores.copia",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "vectores.uppercase",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "vectores.uppercase",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "vectores.uppercase",
+          "sloc": [
+            {
+              "file": "vectores.ads",
+              "line": 10
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 3.26000008499250E-04,
+    "globals (basic)": 5.19999994139653E-05,
+    "globals/properties (advanced)": 7.66000011935830E-04,
+    "flow analysis": 7.62399984523654E-03,
+    "codepeer results": 1.59999999596039E-05,
+    "init_why_sections": 1.72999993083067E-04,
+    "translation of standard": 3.15800006501377E-03,
+    "translation of compilation unit": 1.94320008158684E-02,
+    "proof": 4.54561185836792E+00
+  }
+}

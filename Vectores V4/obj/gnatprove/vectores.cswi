@@ -1,0 +1,7 @@
+20181014201436
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=/home/user1/Escritorio/Vectores/obj/gnatprove/06d384d2.tmp

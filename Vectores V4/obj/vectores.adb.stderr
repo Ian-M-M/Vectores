@@ -1,0 +1,3 @@
+vectores.adb:57:32: quantified expression must be parenthesized
+vectores.adb:60:35: missing ")"
+vectores.adb:61:32: statement expected

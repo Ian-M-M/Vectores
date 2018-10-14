@@ -1,0 +1,49 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U main%b		main.adb		607c6507 OO SU
+Z system%s		system.ads		system.ali
+W text_io%s		text_io.ads		text_io.ali
+W vectores%s		vectores.adb		vectores.ali
+
+D ada.ads		20180525052300 76789da1 ada%s
+D a-ioexce.ads		20180525052259 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180525052300 119b8fb3 ada.streams%s
+D a-textio.ads		20180525052302 881db35a ada.text_io%s
+D interfac.ads		20180525052300 5ab55268 interfaces%s
+D i-cstrea.ads		20180525052259 e53d8b8e interfaces.c_streams%s
+D main.adb		20181014172216 321648be main%b
+D system.ads		20180525052301 4635ec04 system%s
+D s-crtl.ads		20180525052259 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180525052302 078245e4 system.file_control_block%s
+D s-parame.ads		20180525052302 48ec542b system.parameters%s
+D s-wchcon.ads		20180525052301 1b7d22d2 system.wch_con%s
+D text_io.ads		20180525052301 21b2c898 text_io%s
+D vectores.ads		20181014171904 73d8e521 vectores%s
+X 7 main.adb
+4U11*Main 4b11 12l5 12t9
+5a4 vec{14|4A9}
+6a4 vec1{14|4A9} 8r20 8r48
+7a4 vec2{14|4A9} 8r32 8r55
+8a4 res{14|4A9}
+X 13 text_io.ads
+24K9*Text_IO=24:29 7|2w6
+X 14 vectores.ads
+2K9*vectores 7|1w6 1r20 14|78e13
+4A9*Vector(integer)<integer> 7|5r10 6r11 7r11 8r10
+
+QQ SPARKVERSION 2018 (20180524)
+GG EK_DIRECT_CALLS main 0
+GG EK_GLOBALS main local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

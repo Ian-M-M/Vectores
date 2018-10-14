@@ -1,0 +1,52 @@
+--------------------------- Local Context ---------------------------
+
+------------------------------- Goal --------------------------------
+
+goal WP_parameter def :
+  forall res2:map1 int integer, vectores__concatenar__result:map1 int
+   integer, vectores__concatenar__result1:t, o:int, o1:int, o2:int, o3:int,
+   o4:int, o5:int, vectores__concatenar__res__assume:map1 int integer,
+   vectores__concatenar__res__assume1:t, o6:int, o7:int, o8:int, o9:int, o10:
+   int, o11:int, result:map1 int integer, res3:map1 int integer, result1:map1
+   int integer, result2:t, vectores__concatenar__result2:map1 int integer,
+   vectores__concatenar__result3:t, vectores__concatenar__result4:map1 int
+   integer, vectores__concatenar__result5:t, vectores__concatenar__result6:
+   map1 int integer, vectores__concatenar__result7:t, res4:map1 int integer,
+   vectores__concatenar__result8:map1 int integer,
+   vectores__concatenar__result9:t, res5:map1 int integer,
+   vectores__concatenar__result10:map1 int integer,
+   vectores__concatenar__result11:t.
+   let vectores__concatenar__result12 =
+     mk __t vectores__concatenar__result10 vectores__concatenar__result11
+   in
+   let vectores__concatenar__result13 =
+     mk vector__ref
+     (mk __t vectores__concatenar__result8 vectores__concatenar__result9)
+   in
+   let vectores__concatenar__result14 =
+     mk __t vectores__concatenar__result6 vectores__concatenar__result7
+   in
+   let vectores__concatenar__result15 =
+     mk vector__ref
+     (mk __t vectores__concatenar__result4 vectores__concatenar__result5)
+   in
+   let vectores__concatenar__result16 =
+     mk __t vectores__concatenar__result2 vectores__concatenar__result3
+   in
+   let result3 = mk vector__ref (mk __t result1 result2) in
+   let result4 = mk map__ref result in
+   let vectores__concatenar__result17 =
+     mk vector__ref
+     (mk __t vectores__concatenar__result vectores__concatenar__result1)
+   in
+   let res6 = mk map__ref res2 in
+   dynamic_invariant2 vec1 True False True True ->
+   dynamic_invariant2 vec2 True False True True ->
+   (length vec1 + length vec2) = 1000 ->
+   not length vec1 = 0 ->
+   (((to_rep (first1 (rt vec2)) <= to_rep (last1 (rt vec2)) /\
+      o = ((to_rep (last1 (rt vec2)) - to_rep (first1 (rt vec2))) + 1)) /\
+     (not to_rep (first1 (rt vec1)) <= to_rep (last1 (rt vec1)) /\ o1 = 0) /\
+     o2 = (o1 + o)) /\
+    o3 = (to_rep (first1 (rt vec1)) + o2)) /\
+   o4 = (o3 - 1) -> in_range1 o4

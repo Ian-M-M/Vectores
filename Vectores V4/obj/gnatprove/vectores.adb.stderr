@@ -1,0 +1,5 @@
+vectores.adb:56:14: medium: array index check might fail (e.g. when I = 3 and res = (others => 1) and res'Last = 2)[#4]
+vectores.adb:59:38: medium: loop invariant might fail after first iteration, cannot prove res(K)=vec1(vec1'First + K - res'first) (e.g. when I = 3 and K = 3 and res = (3 => 0, others => 1) and vec1 = (1 => 0, 2 => 0, 3 => -1, others => -1) and vec1'First = 1 and vec1'Last = 3)[#3]
+vectores.adb:59:61: medium: overflow check might fail (e.g. when vec1 = (1 => 0, others => 2147483647) and vec1'First = 1 and vec1'Last = 2147483647)[#0]
+vectores.ads:72:13: medium: postcondition might fail, cannot prove copia'Result(K)=vec1(vec1'First + K - copia'Result'first) (e.g. when K = 2 and copia'First = 1 and copia'Last = 2 and copia'Result = (others => -1) and vec1 = (1 => 0, 2 => 0, others => 2) and vec1'First = 1 and vec1'Last = 2)[#1]
+vectores.ads:72:45: medium: overflow check might fail (e.g. when vec1 = (2147483647 => 0, others => 1) and vec1'First = 2147483647 and vec1'Last = 2147483647)[#2]
